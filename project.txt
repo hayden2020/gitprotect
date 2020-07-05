@@ -1,0 +1,27 @@
+在线辞典
+1.确定好技术方案（套接字，并发，细节确定）
+ *tcp 套接字
+ *多进程
+ *历史记录：前10条
+ *注册成功 直接登陆
+2.数据表进行建立（dict:words）
+ *用户  user > id name passwd
+  create table user(id int primary key auto_increment,
+  name varchar(32) not null,passwd varchar(128) not null);
+ *历史记录 hist > id name word time
+  create table history(id int primary key auto_increment,
+  name varchar(32) not null,word varchar(28) not null,time datetime default now());
+
+3.结构设计：几个模块 封装设计
+ *客户端：
+ *服务端：逻辑请求处理，数据库操作处理
+ *函数：直接写一个功能程序提供给使用者使用，使用者直接运行，
+  而不是需要使用我的代码的某一部分
+4.功能分析和通讯搭建
+ *并发通信
+ *登陆
+ *注册
+ *查单词
+ *历史记录
+
+5.罗列功能逻辑（每个功能确定服务端和客户端该做什么，编写代码测试）
