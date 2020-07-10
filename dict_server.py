@@ -9,19 +9,19 @@ from socket import *
 from multiprocessing import Process
 import signal,sys
 from mysql import Database
-
+import pymysql
 # 全局变量
 HOST='0.0.0.0'
 PORT=8000
 ADDR=(HOST,PORT)
 
 #建立数据库对象
-db=Database('dict')
+db=Database(database='dict')
 
 
 #服务端注册处理
-def do_request(c,data):
-    tmp=data.spilt(' ')  #按空格切片
+def do_register(c,data):
+    tmp=data.split(' ')  #按空格切片
     name=tmp[1]
     passwd=tmp[2]
     #返回True 表示注册成功，False 表示失败
@@ -32,19 +32,16 @@ def do_request(c,data):
 
 
 #接受客户端请求，分配处理函数
-def requset(c):
+def request(c):
     db.create_cursor()  #每个子进程单独生成游标
     #循环接收请求
     while True:
         data=c.recv(1024).decode()
-        print(c.getpeername(),":",data)
+        print(c.getpeername(),':',data)
         if data[0]=='R':
-            do_request(c,data)
+            do_register(c,data)
 
-
-
-
-#搭建网络
+#搭建服务端并发网络
 
 def main():
     #创建TCP套接字
@@ -75,6 +72,5 @@ def main():
         p.daemon=True
         p.start()
 
-if __name__ == '__main__':
+if __name__=='__main__':
     main()
-
