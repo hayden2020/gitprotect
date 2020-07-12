@@ -92,9 +92,19 @@ class Database:
 
     # 插入历史记录
     def insert_hist(self,name,word):
-        sql="select into history (name,word) values(%s,%s) "
+        sql="insert into history (name,word) values(%s,%s) "
         try:
             self.cur.execute(sql,[name,word])
             self.db.commit()
         except Exception:
             self.db.rollback()
+
+
+    # 历史记录查询
+
+    def history(self,name):
+        sql="select name,word,time from history \
+        where name='%s' order by time desc limit 10"%name
+        self.cur.execute(sql)
+        return self.cur.fetchone()
+

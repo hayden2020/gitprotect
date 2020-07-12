@@ -8,8 +8,9 @@
 from socket import *
 from multiprocessing import Process
 import signal,sys
-from mysql import Database
-import pymysql
+from dict.mysql import Database
+from time import sleep
+
 # 全局变量
 HOST='0.0.0.0'
 PORT=8000
@@ -57,6 +58,22 @@ def do_query(c,data):
         msg="%s : %s"%(word,mean)
         c.send(msg.encode())
 
+#查历史记录
+def do_hist(c,data):
+    name=data.split(' ')[1]
+    r=db.history(name)    #数据库处理
+    if not r:
+        c.send(b'fail')
+        return
+    c.send(b'OK')
+
+    for i in r:
+        # i --> (name,word,time)
+        msg="%s   %-16s   %s"%i
+        sleep(0.1)    #避免沾包
+        c.send(msg.encode())
+    sleep(0.1)
+    c.send(b'##')   # 发送结束
 
 
 #具体处理客户端请求，分配处理函数
@@ -75,6 +92,9 @@ def request(c):
             do_login(c,data)
         elif data[0]=='Q':
             do_query(c,data)
+        elif data[0]=='H':
+            do_hist(c,data)
+
 
 #搭建服务端并发网络
 
