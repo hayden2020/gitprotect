@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bfedfd8-5554-4d1c-80da-6a249ad9e775" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/.idea/mysite1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/mysite1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/mysite1/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/mysite1/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/mysite1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite1/mysite1/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/.idea/gitprotect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/HTTP_Server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/HTTP_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/struck_recv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/struct_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/udp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/TCP_UDP/udp_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/dict.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/dict/dict_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/dict/dict_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/dict/mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/dict/project.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/exerc_4/25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/exerc_4/mysql_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/exerc_4/mysql_test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/github.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/WebFrame/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/WebFrame/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/WebFrame/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/WebFrame/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/WebFrame/webframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/httpserver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/httpserver/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/httpserver/httpserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/httpserver/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/insert_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/insert_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitprotect/thread_attr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/gitprotect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/gitprotect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP_UDP/HTTP_Server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP_UDP/HTTP_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP_UDP/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP_UDP/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP_UDP/struck_recv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP_UDP/struct_send.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP_UDP/student.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/chat_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chat/chat_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exerc_4/25.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thread_attr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../udp_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../udp_server.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fXql4BbkpPCeJ27OGADkwNyyyJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bfedfd8-5554-4d1c-80da-6a249ad9e775" name="Default Changelist" comment="" />
+      <created>1596374932834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596374932834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="157" y="70" key="FileChooserDialogImpl" timestamp="1596942113447">
+      <screen x="67" y="27" width="733" height="573" />
+    </state>
+    <state x="157" y="70" key="FileChooserDialogImpl/67.27.733.573@67.27.733.573" timestamp="1596942113447" />
+  </component>
+</project>
