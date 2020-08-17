@@ -16,10 +16,15 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from .import views
-
+from django.conf.urls import include
+import music.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^shebao',views.shebao_view),  #  必须导入views模块
+    url(r'^music/',include('music.urls')),
+    url(r'^sport/',include('sport.urls')),
+    url(r'^news/',include('news.urls')),
+    url(r'^bookstore/',include('bookstore.urls'))
 
 ]
