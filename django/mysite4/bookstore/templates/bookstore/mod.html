@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改图书</title>
+</head>
+<body>
+<form action="/bookstore/mod/{{  abook.id }}" method="post">
+    <div>书名：<input type="text" value="{{ abook.title }}"></div>
+    <div>出版社：<input type="text" value="{{ abook.pub }}"></div>
+    <div>定价：<input type="text" value="{{ abook.price }}"></div>
+    <div>零售价：<input type="text" name="market_price" value="{{ abook.market_price }}"></div>
+    <div><input type="submit" value="确认修改"></div>
+
+</form>
+</body>
+</html>
