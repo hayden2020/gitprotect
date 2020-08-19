@@ -13,7 +13,7 @@ def request(connfd):
     info=request_line.split(' ')[1]
     #判断是/ 则返回index。html, 不是则返回404
     if info=='/':
-        with open('index.html')as f:
+        with open('httpserver/index.html')as f:
             response="HTTP/1.1 200 OK\r\n"
             response+="Content_Type:text/html"
             response+="\r\n"

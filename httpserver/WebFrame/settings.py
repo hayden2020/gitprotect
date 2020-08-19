@@ -9,3 +9,6 @@ frame_port=8080
 
 # debug
 DEBUG=True
+
+#网页存放的位置
+STATIC_DIR='./static'
